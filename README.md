@@ -26,7 +26,7 @@ let whiteListedModules = ['vue', 'vuetify', 'card']
 import Vue from 'vue'
 import * as Card from 'card'
 ```
-### Instantiate Card in created, in nexttick or it will not render properlys
+### Instantiate Card in created, in nexttick or it will not render properly
 ```javascript
 created () {
   Vue.nextTick(function () {
